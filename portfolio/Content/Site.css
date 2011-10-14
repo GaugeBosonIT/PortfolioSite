@@ -1,0 +1,318 @@
+body
+{
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+
+/*My Styles*/
+
+.colourband
+{
+    min-height:5px;
+    background-color:#90FF00;
+   }
+   
+.navstrip
+{
+    min-height:35px;
+    width:100%; 
+    background-color:white;
+    
+ }
+ .navstripcontrol
+ {
+     max-width:500px;
+     
+     text-align:left;
+     }
+
+ 
+ .navstrip ul li
+ {
+     
+     float:right;
+     list-style:none;
+     padding: 7px 10px 3px 10px;
+   
+     }
+ 
+ /*2BC135	3C9142	0E7D15	5DE066	80E086 http://colorschemedesigner.com/#2Q12loTuJw0w0*/
+ a
+ {
+     color:#2BC135;
+     text-decoration:none;
+     }
+ a.hover    
+ {
+     text-decoration:underline;
+     }
+ a.visited    
+ {
+     text-decoration:none;
+     }     
+     
+.infographic
+{
+    min-height:400px;
+    background-color:#99DC9D;
+    
+    }
+    
+  .services
+  {
+      min-height:300px;
+      background-color:#2BC135;
+      }
+.footer
+{
+    min-height:200px;
+    background-color: Lime;
+    }
+.service
+{
+    min-width:100px;
+    min-height:300px;
+    background-color:white;
+
+    }
+.sectiondivide
+{
+    min-height:35px;
+}    
+
+.video
+{
+    min-width:500px;
+    min-height:281px;
+    background-color:#99DC9D;
+    }
+
+.slogan
+{
+    min-width:500px;
+    min-height:281px;
+       background-color:#99DC9D;
+       font-size:4em;
+       color:White;
+    }
+    
+    @-webkit-keyframes mask {
+	0% {
+		padding: 100px;
+		background-color:rgba(255,0,0,0.2);		
+	}
+	50% {
+		padding: 50px;
+		background-color:rgba(255,0,0,0.2);		
+	}
+	100% {
+		padding: 0px;
+		background-color:rgba(255,0,0,0.9);
+	}
+}
+@-moz-keyframes mask {
+	0% {
+		padding: 100px;
+		background-color:rgba(255,0,0,0.2);		
+	}
+	50% {
+		padding: 50px;
+		background-color:rgba(255,0,0,0.2);		
+	}
+	100% {
+		padding: 0px;
+		background-color:rgba(255,0,0,0.9);
+	}
+}
+@-ms-keyframes mask {
+	0% {
+		padding: 100px;
+		background-color:rgba(255,0,0,0.2);		
+	}
+	50% {
+		padding: 50px;
+		background-color:rgba(255,0,0,0.2);		
+	}
+	100% {
+		padding: 0px;
+		background-color:rgba(255,0,0,0.9);
+	}
+}
+
+#mask {
+	height:100px;
+	width:500px;
+	margin:0 auto;
+}
+
+#mask #box {
+	height:50px;
+	width:100%;
+	margin:0 auto;
+	border:1px red solid;
+	background-color:rgba(255,0,0,0.7);
+}
+
+#mask:hover #box, #mask.hover_effect #box {
+	-webkit-animation-name: mask;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: 4;
+	-webkit-animation-direction: alternate;	
+	
+	-moz-animation-name: mask;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: 4;
+	-moz-animation-direction: alternate;	
+	
+	-ms-animation-name: mask;
+	-ms-animation-duration: 1s;
+	-ms-animation-iteration-count: 4;
+	-ms-animation-direction: alternate;	
+}
+    
+    
+    
+    
+    
+    
+@-webkit-keyframes resize {
+	0% {
+		padding: 0;
+	}
+	50% {
+		padding: 0 20px;
+		background-color:rgba(255,0,0,0.2);		
+	}
+	100% {
+		padding: 0 100px;
+		background-color:rgba(255,0,0,0.9);
+	}
+}
+@-moz-keyframes resize {
+	0% {
+		padding: 0;
+	}
+	50% {
+		padding: 0 20px;
+		background-color:rgba(255,0,0,0.2);		
+	}
+	100% {
+		padding: 0 100px;
+		background-color:rgba(255,0,0,0.9);
+	}
+}
+@-ms-keyframes resize {
+	0% {
+		padding: 0;
+	}
+	50% {
+		padding: 0 20px;
+		background-color:rgba(255,0,0,0.2);		
+	}
+	100% {
+		padding: 0 100px;
+		background-color:rgba(255,0,0,0.9);
+	}
+}
+
+#animationDemo {
+	height:100px;
+	width:500px;
+	margin:0 auto;
+}
+
+#animationDemo #box {
+	height:50px;
+	width:50px;
+	margin:0 auto;
+	border:1px red solid;
+	background-color:rgba(255,0,0,0.7);
+}
+
+#animationDemo:hover #box, #animationDemo.hover_effect #box {
+	-webkit-animation-name: resize;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: 4;
+	-webkit-animation-direction: alternate;	
+	
+	-moz-animation-name: resize;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: 4;
+	-moz-animation-direction: alternate;	
+	
+	-ms-animation-name: resize;
+	-ms-animation-duration: 1s;
+	-ms-animation-iteration-count: 4;
+	-ms-animation-direction: alternate;	
+}

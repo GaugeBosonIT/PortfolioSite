@@ -1,0 +1,7 @@
+c:\users\harry\documents\visual studio 2010\Projects\portfolio\portfolio\bin\portfolio.dll
+c:\users\harry\documents\visual studio 2010\Projects\portfolio\portfolio\bin\portfolio.pdb
+c:\users\harry\documents\visual studio 2010\Projects\portfolio\portfolio\bin\EntityFramework.dll
+c:\users\harry\documents\visual studio 2010\Projects\portfolio\portfolio\bin\EntityFramework.xml
+c:\users\harry\documents\visual studio 2010\Projects\portfolio\portfolio\obj\Debug\ResolveAssemblyReference.cache
+c:\users\harry\documents\visual studio 2010\Projects\portfolio\portfolio\obj\Debug\portfolio.dll
+c:\users\harry\documents\visual studio 2010\Projects\portfolio\portfolio\obj\Debug\portfolio.pdb
