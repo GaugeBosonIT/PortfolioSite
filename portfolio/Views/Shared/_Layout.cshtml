@@ -19,15 +19,78 @@
 <div class="twelvecol last navstrip">
 
 <ul class="navlist">
-<li><a href="/">Home</a></li>
-<li><a href="/Services">About</a></li>
-<li><a href="/Clients">Blog</a></li>
-<li><a href="/Contact">Projects</a></li>
-<li><a href="/Contact">Code</a></li>
+<li>@Html.ActionLink("Home", "/", "Home")</li>
+<li>@Html.ActionLink("About", "About", "Home")</li>
+<li>@Html.ActionLink("Blog", "Blog", "Home")</li>
+<li>@Html.ActionLink("Projects", "Projects", "Home")</li>
+<li>@Html.ActionLink("Clients", "Clients", "Home")</li>
+<li>@Html.ActionLink("Services", "Services", "Home")</li>
 </ul>
 </div>
 </div>
-
     @RenderBody()
+      <div class="twelevecol last sectiondivide"></div>
+@*footer*@
+<div class="twelevecol last border"></div>
+<div class="footer row">
+
+ 
+    <div class="threecol">
+    <ul>
+    <span class="fontWeightBold">Our work</span>
+    <ul>
+    <li><a href="/Services">Methodology</a></li>
+    <li><a href="/Clients">FAQ</a></li>
+    <li><a href="/Portfolio">Testimonials</a></li>
+    <li><a href="/Jobs">Jobs</a></li>
+    </ul>
+    </div>
+    <div class="threecol">
+    <ul>
+    <span class="fontWeightBold">Company</span>
+    <ul>
+    <li><a href="/Clients">Clients</a></li>
+    <li><a href="/Portfolio">Portfolio</a></li>
+    <li><a href="/Jobs">Jobs</a></li>
+    </ul>
+    </div>
+    <div class="threecol">
+      
+      <span class="fontWeightBold">Legal</span>
+      <ul>
+     <li><a href="/Services">Imprint</a></li>
+    <li><a href="/Clients">Privacy</a></li>
+    </ul>
+    </div>
+    <div class="threecol last">
+
+    <span class="fontWeightBold">Connect</span>
+    <ul>
+    <li><a target="_blank" href="http://www.facebook.com/friendfund" class="linkFb"> Join us on Facebook</a></li>
+    <li><a target="_blank" href="http://twitter.com/#!/friendfund" class="linkTw">Follow us on Twitter</a></li>
+    <li><a target="_blank" href="http://blog.friendfund.com/?feed=rss2" class="linkRss">Subscribe to our Blog</a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="row">
+<div class="twocol"></div>
+<div class="eightcol border-top footnote">
+<span>Share Friendfund</span>
+							<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.friendfund.com" data-count="horizontal">Tweet</a>
+							<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=www.facebook.com%2Ffriendfund&amp;layout=button_count&amp;show_faces=false&amp;width=200&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowTransparency="true"></iframe>
+								
+							
+						<span class="floatLeft" style="margin-top:-13px"><a target="_blank" href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.friendfund.com&lang=en">
+							<img src="/static/imgs/veri-sign_trans.png"/></a></span>
+							<span class="floatRight" style="margin-top:3px">2011 Someother GmbH. All Rights Reserved.</span>
+
+</div>
+<div class="twocol"></div>
+
+</div>
+
+
 </body>
 </html>

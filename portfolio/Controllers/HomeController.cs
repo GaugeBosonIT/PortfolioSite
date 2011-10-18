@@ -15,6 +15,10 @@ namespace portfolio.Controllers
         {
             return View();
         }
+        public ActionResult About()
+        {
+            return View();
+        }
 
         //
         // GET: /Home/Details/5

@@ -132,18 +132,28 @@ textarea
   .services
   {
       min-height:300px;
-      background-color:#2BC135;
+      background-color:white;
+     
       }
 .footer
 {
-    min-height:200px;
-    background-color: Lime;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: white;
     }
+ .footer li
+{
+    list-style:none;
+    }   
+    
 .service
 {
-    min-width:100px;
+    margin-top:35px;
     min-height:300px;
     background-color:white;
+    position: relative;
+     border:2px solid #2BC135;
+     padding-left: 0px;
 
     }
 .sectiondivide
@@ -155,7 +165,7 @@ textarea
 {
     min-width:500px;
     min-height:281px;
-    background-color:#99DC9D;
+
     }
 
 .slogan
@@ -169,150 +179,91 @@ textarea
     
     @-webkit-keyframes mask {
 	0% {
-		padding: 100px;
-		background-color:rgba(255,0,0,0.2);		
+		height: 225px;
+	
 	}
-	50% {
-		padding: 50px;
-		background-color:rgba(255,0,0,0.2);		
-	}
+
 	100% {
-		padding: 0px;
-		background-color:rgba(255,0,0,0.9);
+		margin-top:225px;
+		height: 0px;
 	}
 }
 @-moz-keyframes mask {
 	0% {
-		padding: 100px;
-		background-color:rgba(255,0,0,0.2);		
+		height: 225px;
+	
 	}
-	50% {
-		padding: 50px;
-		background-color:rgba(255,0,0,0.2);		
-	}
+
 	100% {
-		padding: 0px;
-		background-color:rgba(255,0,0,0.9);
+		margin-top:225px;
+		height: 0px;
 	}
 }
 @-ms-keyframes mask {
 	0% {
-		padding: 100px;
-		background-color:rgba(255,0,0,0.2);		
+		height: 225px;
+	
 	}
-	50% {
-		padding: 50px;
-		background-color:rgba(255,0,0,0.2);		
-	}
+
 	100% {
-		padding: 0px;
-		background-color:rgba(255,0,0,0.9);
+		margin-top:225px;
+		height: 0px;
 	}
 }
 
-#mask {
-	height:100px;
-	width:500px;
-	margin:0 auto;
-}
+.servicewrapper
+{ position: absolute; top: 75px; width: 100%; 
+  padding-left: 0px;
+  
+  } 
+    
 
-#mask #box {
-	height:50px;
-	width:100%;
+.mask 
+{
+    position: absolute; top: 75px; width: 100%; 
+  padding-left: 0px;
+	height:225px;
+	padding-left: 0px;
 	margin:0 auto;
-	border:1px red solid;
-	background-color:rgba(255,0,0,0.7);
-}
+    background-color:rgba(43,193,0,0.7);
+}   
 
-#mask:hover #box, #mask.hover_effect #box {
+
+.service:hover .mask {
 	-webkit-animation-name: mask;
 	-webkit-animation-duration: 1s;
-	-webkit-animation-iteration-count: 4;
-	-webkit-animation-direction: alternate;	
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction:normal;
+	-webkit-animation-fill-mode: forwards;
 	
 	-moz-animation-name: mask;
 	-moz-animation-duration: 1s;
-	-moz-animation-iteration-count: 4;
-	-moz-animation-direction: alternate;	
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-direction:normal;	
+	-webkit-animation-fill-mode: forwards;
 	
 	-ms-animation-name: mask;
 	-ms-animation-duration: 1s;
-	-ms-animation-iteration-count: 4;
-	-ms-animation-direction: alternate;	
+	-ms-animation-iteration-count: 1;
+	-webkit-animation-direction:normal;	
+	-webkit-animation-fill-mode: forwards;
 }
     
+.border
+{
+    border:1px solid #E5E5E5;
     
-    
-    
-    
-    
-@-webkit-keyframes resize {
-	0% {
-		padding: 0;
-	}
-	50% {
-		padding: 0 20px;
-		background-color:rgba(255,0,0,0.2);		
-	}
-	100% {
-		padding: 0 100px;
-		background-color:rgba(255,0,0,0.9);
-	}
-}
-@-moz-keyframes resize {
-	0% {
-		padding: 0;
-	}
-	50% {
-		padding: 0 20px;
-		background-color:rgba(255,0,0,0.2);		
-	}
-	100% {
-		padding: 0 100px;
-		background-color:rgba(255,0,0,0.9);
-	}
-}
-@-ms-keyframes resize {
-	0% {
-		padding: 0;
-	}
-	50% {
-		padding: 0 20px;
-		background-color:rgba(255,0,0,0.2);		
-	}
-	100% {
-		padding: 0 100px;
-		background-color:rgba(255,0,0,0.9);
-	}
-}
+    }
 
-#animationDemo {
-	height:100px;
-	width:500px;
-	margin:0 auto;
-}
-
-#animationDemo #box {
-	height:50px;
-	width:50px;
-	margin:0 auto;
-	border:1px red solid;
-	background-color:rgba(255,0,0,0.7);
-}
-
-#animationDemo:hover #box, #animationDemo.hover_effect #box {
-	-webkit-animation-name: resize;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-iteration-count: 4;
-	-webkit-animation-direction: alternate;	
-	
-	-moz-animation-name: resize;
-	-moz-animation-duration: 1s;
-	-moz-animation-iteration-count: 4;
-	-moz-animation-direction: alternate;	
-	
-	-ms-animation-name: resize;
-	-ms-animation-duration: 1s;
-	-ms-animation-iteration-count: 4;
-	-ms-animation-direction: alternate;	
-}
+    
+ .border-top
+{
+    border-top:1px solid #E5E5E5;
+    
+    }
+.footnote 
+{
+    padding: 10px 10px 0 10px;
+    text-align:center;
+    
+    }
