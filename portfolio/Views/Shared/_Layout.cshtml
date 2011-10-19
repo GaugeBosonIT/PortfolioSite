@@ -21,13 +21,36 @@
 <ul class="navlist">
 <li>@Html.ActionLink("Home", "/", "Home")</li>
 <li>@Html.ActionLink("About", "About", "Home")</li>
-<li>@Html.ActionLink("Blog", "Blog", "Home")</li>
+<li>@Html.ActionLink("Services", "Services", "Home")</li>
 <li>@Html.ActionLink("Projects", "Projects", "Home")</li>
 <li>@Html.ActionLink("Clients", "Clients", "Home")</li>
 <li>@Html.ActionLink("Services", "Services", "Home")</li>
 </ul>
 </div>
 </div>
+
+<div class="twelevecol last border">
+</div>
+<div class="twelevecol last infographic">
+
+
+    <div class="row infographic">
+      <div class="onecol"></div>
+        <div class="tencol slogan @(ViewBag.Title == "Home" ? "":"lineheight") ">
+           @ViewBag.PageTitle</div>
+           <div class="onecol last"></div>
+        </div>
+        
+         
+
+
+</div>
+<div class="twelevecol last border">
+
+</div>
+
+
+
     @RenderBody()
       <div class="twelevecol last sectiondivide"></div>
 @*footer*@

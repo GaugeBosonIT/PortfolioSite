@@ -1,9 +1,9 @@
 body
 {
-    font-size: .85em;
+    font-size: 1em;
     font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
     color: #232323;
-    background-color: #fff;
+    background-color: #E5E5E5;
 }
 
 header,
@@ -87,7 +87,7 @@ textarea
 {
     min-height:35px;
     width:100%; 
-    background-color:white;
+
     
  }
  .navstripcontrol
@@ -124,22 +124,23 @@ textarea
      
 .infographic
 {
-    min-height:400px;
+    min-height:190px;
     background-color:#99DC9D;
+
     
     }
     
   .services
   {
       min-height:300px;
-      background-color:white;
+      background-color:#E5E5E5;
      
       }
 .footer
 {
     margin-top: 35px;
     margin-bottom: 35px;
-    background-color: white;
+    background-color: #E5E5E5;
     }
  .footer li
 {
@@ -150,10 +151,10 @@ textarea
 {
     margin-top:35px;
     min-height:300px;
-    background-color:white;
+        background-color: #E5E5E5;
     position: relative;
-     border:2px solid #2BC135;
-     padding-left: 0px;
+    border:2px solid #2BC135;
+    padding-left: 0px;
 
     }
 .sectiondivide
@@ -163,20 +164,33 @@ textarea
 
 .video
 {
-    min-width:500px;
+  
     min-height:281px;
 
     }
 
 .slogan
 {
-    min-width:500px;
-    min-height:281px;
-       background-color:#99DC9D;
+    
+     background-color:#99DC9D;
        font-size:4em;
        color:White;
+       padding: 10px 0 10px 0;
+        text-align:center;
     }
     
+
+    
+  .floater
+  {
+      position:relative;
+        top:-50%;
+        display: table-cell;
+vertical-align: middle;
+position: static;
+    }  
+    
+  
     @-webkit-keyframes mask {
 	0% {
 		height: 225px;
@@ -267,3 +281,195 @@ textarea
     text-align:center;
     
     }
+
+ .abouttitle
+ {
+    background-color:#99DC9D;
+    color:White;
+    text-align:center;
+    vertical-align:middle;
+    font-size:7em;
+    line-height:2em;
+
+     }
+   
+.aboutcontent
+{
+
+
+background-color:#E5E5E5;
+
+
+}
+.aboutrow
+{
+    margin-top:35px;
+      border: 1px solid #99DC9D;
+    
+    }
+.abouttext
+{
+    padding: 2%;
+    text-align:left;
+
+}
+
+div.arrowAvatar 
+{
+background: url(/../content/images/arrow-avatar-box.png) 0 0 no-repeat;
+width: 6px;
+height: 9px;
+position: absolute;
+right: -6px;
+top: 3px;
+}
+
+.avt img {
+display: block;
+width: 60px;
+height: 60px;
+border: 5px solid white !important;
+margin: 0 !important;
+}
+
+.mapavt img {
+display: block;
+border: 5px solid white !important;
+margin: 0 !important;
+}
+
+.avt {
+float: left;
+border: 1px solid #E5E5E5;
+position: relative;
+z-index: 10;
+margin-right:5px;
+}
+
+.contactLinksBox {
+margin: 10px 0 0 0;
+}
+
+.profileleft
+{
+    width:50%;
+    float:left;
+    
+    }
+    
+.profileright
+{
+    width:50%;
+    float:right;
+    
+    }
+  .profiletext
+  {clear:both;}
+  
+  .clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+.lineheight
+{
+    line-height:2.8em;
+    padding:0;
+    }
+  
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+
+    
+	}   
+	.abouttitle
+	{font-size:6em;
+	 line-height:2.5em;
+	 
+	 }
+	
+	}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	.aboutrow
+{
+ 
+      border: 0;
+    
+    }
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+		.abouttitle
+	{
+	 line-height:1.5em;
+	 
+	 }
+
+}
+
+
+@media handheld, only screen and (max-width: 480px) {
+
+	body {
+
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	.aboutrow
+{
+ 
+      border: 0;
+    
+    }
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+		.abouttitle
+	{
+	 line-height:1.5em;
+	 font-size:2em;
+	 
+	 }
+
+}
