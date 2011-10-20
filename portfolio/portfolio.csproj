@@ -72,10 +72,18 @@
     <Content Include="Content\1140.css" />
     <Content Include="Content\images\arrow-avatar-box.png" />
     <Content Include="Content\images\berlin.png" />
+    <Content Include="Content\images\bigstock_Shopping_Cart_1415346.jpg" />
+    <Content Include="Content\images\data.gif" />
+    <Content Include="Content\images\data.PNG" />
+    <Content Include="Content\images\ecommerce.png" />
     <Content Include="Content\images\harry.jpg" />
+    <Content Include="Content\images\ipad.png" />
+    <Content Include="Content\images\iphone.gif" />
+    <Content Include="Content\images\iphone2.gif" />
     <Content Include="Content\images\linkedin.gif" />
     <Content Include="Content\images\martin.jpg" />
     <Content Include="Content\images\process.gif" />
+    <Content Include="Content\images\social.gif" />
     <Content Include="Content\images\twitter-icon.png" />
     <Content Include="Content\images\xing.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -155,6 +163,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\Services.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\images\iphone2.xcf" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

@@ -473,3 +473,40 @@ margin: 10px 0 0 0;
 	 }
 
 }
+.serv
+{
+    padding-top: 35px;
+    padding-bottom:35px;
+    }
+
+.servtitle
+{
+    background-color:#99DC9D;
+    color:white;
+    font-size:6em;
+    text-align:center;
+ }
+   .servcontent
+   {
+    }
+  
+  .servpic
+  {
+      width:50%;
+      height:50%;
+      float:left;
+     }
+.right
+{float:right;}
+
+blockquote.quote {
+  font-size:1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left:10px;
+   color:#99DC9D;
+  border-left: 3px solid #ccc;
+  width:50%;
+
+} 

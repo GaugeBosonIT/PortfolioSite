@@ -19,13 +19,13 @@ namespace portfolio.Controllers
         }
         public ActionResult About()
         {
-            ViewBag.PageTitle = "About";
+            ViewBag.PageTitle = "About. Your questions answered.";
             return View();
         }
 
         public ActionResult Services()
         {
-            ViewBag.PageTitle = "Services";
+            ViewBag.PageTitle = "Services.";
             return View();
         }
      
