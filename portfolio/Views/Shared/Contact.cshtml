@@ -1,0 +1,54 @@
+﻿@model portfolio.Models.Contact
+
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+
+<div class="row">
+<div class="threecol"></div>
+ <div class ="sixcol messagestatus">@ViewBag.MessageStatus</div>
+<div class="threecol last"></div>
+</div>
+<div class="messagestatus"></div>
+<div class="row">
+    <div class="threecol"></div>
+    
+    @using (Html.BeginForm())
+    {
+
+    @Html.ValidationSummary(true)
+    <fieldset>
+    <div class ="sixcol contactform">
+       <div class ="twelevecol last contactfield"> 
+    @Html.TextBoxFor(model => model.Name, new { placeholder = "Name", @class = "fieldbox" })
+    @Html.ValidationMessageFor(model => model.Name)
+   </div>
+
+   <div class ="twelevecol last contactfield"> 
+    @Html.TextBoxFor(model => model.Email, new { placeholder = "Email", @class = "fieldbox" })
+    @Html.ValidationMessageFor(model => model.Email)
+   </div>
+    
+   <div class ="twelevecol last contactfield">     
+    @Html.TextBoxFor(model => model.Subject, new { placeholder = "Subject", @class = "fieldbox" })
+    @Html.ValidationMessageFor(model => model.Subject)</div>
+
+    <div class ="twelevecol last contactfield">    
+    @Html.TextAreaFor(model => model.Message, new { placeholder = "Message", @class = "messagebox"})
+    @Html.ValidationMessageFor(model => model.Message)</div>
+    
+     <div class ="twelevecol last contactfield">  
+    <input class ="bigbutton" type="submit" id="gettags" value="Send" name ="submitButton"/>
+    </div>
+    </div>
+    </fieldset>
+    }
+    
+
+        <div class="threecol last">
+        </div>
+    </div>

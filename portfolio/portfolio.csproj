@@ -66,6 +66,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Contact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +77,7 @@
     <Content Include="Content\images\data.gif" />
     <Content Include="Content\images\data.PNG" />
     <Content Include="Content\images\ecommerce.png" />
+    <Content Include="Content\images\edarling.gif" />
     <Content Include="Content\images\harry.jpg" />
     <Content Include="Content\images\ipad.png" />
     <Content Include="Content\images\iphone.gif" />
@@ -86,6 +88,8 @@
     <Content Include="Content\images\social.gif" />
     <Content Include="Content\images\twitter-icon.png" />
     <Content Include="Content\images\xing.png" />
+    <Content Include="Content\images\zanox.jpg" />
+    <Content Include="Content\images\zanox.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -149,9 +153,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
@@ -166,6 +168,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\images\iphone2.xcf" />
+    <Content Include="Views\Shared\Projects.cshtml" />
+    <Content Include="Views\Shared\Contact.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

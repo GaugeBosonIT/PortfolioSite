@@ -334,7 +334,6 @@ margin: 0 !important;
 
 .mapavt img {
 display: block;
-border: 5px solid white !important;
 margin: 0 !important;
 }
 
@@ -489,6 +488,10 @@ margin: 10px 0 0 0;
    .servcontent
    {
     }
+    
+    .picborder
+    {      border: 5px solid white !important;
+        }
   
   .servpic
   {
@@ -510,3 +513,146 @@ blockquote.quote {
   width:50%;
 
 } 
+
+.picpad
+{
+    
+    }
+    
+   
+ .contactform
+ {
+     margin-top:35px;
+     }
+ .contactfield
+{
+ margin-bottom:17px;
+ 
+}
+
+fieldset 
+{
+    border: 0;
+
+}
+
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+   border: 1px solid #99DC9D;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+   border: 1px solid #99DC9D;
+}
+.fieldbox
+{
+    width:50%;
+    border: 1px solid #99DC9D;
+    
+    }
+ .messagebox
+{
+    width:100%;
+    border: 1px solid #99DC9D;
+    
+    }
+.messagestatus
+{
+  color:#99DC9D;
+  font-size:2em;
+    }
+    
+.projwrapper
+{
+
+    border: 1px solid #99DC9D;
+    
+    }
+.projbody
+{
+    
+
+    background-color:#E5E5E5;
+}
+
+.projbodyfoot
+{
+   
+    width:100%;
+    height:10%;
+    background-color: #99DC9D;
+    color: White;
+    clear:both;
+    }
+    
+    
+    
+ .projectheader
+    {
+        background-color:#99DC9D;
+        color:White;
+    }
+   .project
+   {
+   
+       margin-top:35px;
+  
+       
+   }
+   .projectclient
+   {
+        
+
+        padding:0.5em;
+        
+
+
+       }
+
+   .projecttitle
+   {
+      color:white;
+      font-size:1.1em;
+      text-align:right;
+      padding-right:10px;
+    }
+
+blockquote.testimonial {
+  font-size:1em;
+   color:white;
+
+  width:95%;
+  text-align:center;
+
+} 
+.projbodyscreen
+{
+    margin:15px;
+    
+    }
+    
+.projbodytext
+{
+  
+
+    }
+
+    
