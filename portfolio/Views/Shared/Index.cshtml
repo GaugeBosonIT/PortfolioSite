@@ -1,49 +1,23 @@
 ﻿@{
     ViewBag.Title = "Home";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/master.cshtml";
 }
 
 
 @*services*@
-<div class="services">
-    <div class="row">
-        <div class="fourcol">
-        <div class="service">
-            <div class="mask">
-            </div>
-         </div>
-        </div>
-       <div class="fourcol">
-        <div class="service">
-            <div class="mask">
-            </div>
-         </div>
-        </div>
-        <div class="fourcol last">
-        <div class="service">
-            <div class="mask">
-            </div>
-         </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="fourcol">
-        <div class="service">
-            <div class="mask">
-            </div>
-         </div>
-        </div>
-        <div class="fourcol">
-        <div class="service">
-            <div class="mask">
-            </div>
-         </div>
-        </div>
-       <div class="fourcol last">
-        <div class="service">
-            <div class="mask">
-            </div>
-         </div>
-        </div>
-    </div>
+<div id="home">
+@Html.Partial("Home")
+</div>
+
+<div id="about">
+@Html.Partial("About")
+</div>
+<div id ="services">
+@Html.Partial("Services")
+</div>
+<div id ="projects">
+@Html.Partial("Projects")
+</div>
+<div id="contact">
+@Html.Partial("Contact")
 </div>

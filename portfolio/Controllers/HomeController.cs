@@ -25,7 +25,7 @@ namespace portfolio.Controllers
         public ActionResult Index()
         {
             
-            ViewBag.PageTitle = "Discover your customers with enaging social commerce apps.";
+            ViewBag.PageTitle = "Build your vision in 6 sprints.";
             return View();
         }
         public ActionResult About()
