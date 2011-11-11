@@ -1,16 +1,16 @@
 ﻿@{
-    ViewBag.Title = "Home";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.PageTitle = "Home";
+  ViewBag.Title = "Home";
+  ViewBag.PageTitle = "Home";
 }
-
-<div class="row">
-       <div class="sixcol keywords">
-       Design
-       Build
-       Test
-       Feedback
-       </div> 
-       <div class="sixcol last multiple">
-       x6</div> 
+<div class="row" id="homeanim" style="height: 800px; position:relative;background-color:white">
 </div>
+
+
+<script>
+  var paper = Raphael("homeanim", 1140, 800);
+  var design_text = paper.text(570, 50, "DESIGN", paper.getFont("Vegur")).scale(10, 10);
+  var build_text = paper.text(940, 400, "BUILD", paper.getFont("Vegur")).scale(10, 10);
+  var test_text = paper.text(170, 400, "TEST", paper.getFont("Vegur")).scale(10, 10);
+  var feedback_text = paper.text(570, 750, "FEEDBACK", paper.getFont("Vegur")).scale(10, 10); ;
+
+  </script>
