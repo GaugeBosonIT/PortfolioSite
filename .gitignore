@@ -1,15 +1,13 @@
-
-
-
-
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
 *.suo
 *.user
 /TestResults
 *.vspscc
 *.vssscc
-obj
-
-_ReSharper.*
 *.csproj.user
 *.resharper.user
 *.resharper
@@ -20,12 +18,6 @@ _ReSharper.*
 *.resharper.user
 *.rptproj.user
 *.db
-/AudioTag/obj/Debug/AudioTag.csproj.FileListAbsolute.txt
-/AudioTag/obj/debug/AudioTag.dll
-/AudioTag/obj/debug/AudioTag.pdb
-/AudioTag/obj/Debug/AudioTag.dll
-/AudioTag/obj/debug/AudioTag.pdb
-/AudioTag/obj/debug/AudioTag.pdb
-/AudioTag/obj/Debug/AudioTag.pdb
 
-/AudioTag/obj/Debug/ResolveAssemblyReference.cache
+/portfolio/bin
+/portfolio/obj
