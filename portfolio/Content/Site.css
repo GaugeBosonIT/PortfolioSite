@@ -3,7 +3,7 @@ body
 font-size: 1em;
 font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
 color: #232323;
-background-color: #E5E5E5;
+background-color: #F5F5F5;
 }
 
 header,
@@ -74,7 +74,7 @@ color: #ff0000;
 display: none;
 }
 
-
+.navlist{background-color:#F5F5F5; float:right;}
 /*My Styles*/
 
 .colourband
@@ -85,7 +85,7 @@ background-color:#90FF00;
    
 .navstrip
 {
-min-height:35px;
+
 width:100%; 
 
     
@@ -133,14 +133,14 @@ background-color:#99DC9D;
 .services
 {
     min-height:300px;
-    background-color:#E5E5E5;
+    background-color:#F5F5F5;
      
     }
 .footer
 {
 margin-top: 35px;
 margin-bottom: 35px;
-background-color: #E5E5E5;
+background-color: #F5F5F5;
 }
 .footer li
 {
@@ -151,7 +151,7 @@ list-style:none;
 {
 margin-top:35px;
 min-height:300px;
-    background-color: #E5E5E5;
+    background-color: #F5F5F5;
 position: relative;
 border:2px solid #2BC135;
 padding-left: 0px;
@@ -265,14 +265,14 @@ background-color:rgba(43,193,0,0.7);
     
 .border
 {
-border:1px solid #E5E5E5;
+border:1px solid #F5F5F5;
     
 }
 
     
 .border-top
 {
-border-top:1px solid #E5E5E5;
+border-top:1px solid #F5F5F5;
     
 }
 .footnote 
@@ -297,7 +297,7 @@ line-height:2em;
 {
 
 
-background-color:#E5E5E5;
+background-color:#F5F5F5;
 
 
 }
@@ -339,7 +339,7 @@ margin: 0 !important;
 
 .avt {
 float: left;
-border: 1px solid #E5E5E5;
+border: 1px solid #F5F5F5;
 position: relative;
 z-index: 10;
 margin-right:5px;
@@ -590,7 +590,7 @@ border: 1px solid #99DC9D;
 {
     
 
-background-color:#E5E5E5;
+background-color:#F5F5F5;
 }
 
 .projbodyfoot
@@ -657,13 +657,15 @@ margin:15px;
 
 .keywords
 {
-font-size:9em;
+font-size:10em;
 color:#99DC9D;
+line-height:1.0em;
 }
 .multiple
 {
-font-size:25em;
+font-size:30em;
 color:#99DC9D;
+
             
 }
 
@@ -701,7 +703,7 @@ a:hover {text-decoration: underline}
 
 .arrowstem
 {
-    background-color:#99DC9D;
+    
     width:50%;
     border-width: 20px;
     border-style: solid;
@@ -714,11 +716,24 @@ a:hover {text-decoration: underline}
   border-style: solid;
   border-width: 20px;
   width: 0;
-  height: 0;
+  height: 0;}
 
-  
-}
-.homepage
+.logo {font-family: Palatino Linotype, serif; color:#99DC9D; float:left; }    
+ .eight {font-size:2.5em;line-height:1.0em;font-weight:bold;}
+ .sprints{font-size:2em;line-height:1.0em;position:relative; top:-0.2em;}
+ 
+ .homepage{margin-top:75px;}
+.headerstrip{background-color: #F5F5F5;}
+
+.slogan{background-color:#99DC9D;}
+
+.weare
 {
-    height:200px;
+    color:White;
+    font-size:0.5em;
+    }
+.vision
+{
+    color:White;
+    font-size:0.5em;
     }
