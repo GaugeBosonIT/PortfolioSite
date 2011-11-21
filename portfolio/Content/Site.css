@@ -333,6 +333,8 @@ height: 60px;
 border: 5px solid white !important;
 margin: 0 !important;
 }
+.mapavt {margin: .2em .4em .2em 0;}
+.mapavt.right {margin: .2em 0 .2em .4em;}
 
 .mapavt img {
 display: block;
@@ -489,6 +491,7 @@ text-align:center;
 }
 .servcontent
 {
+  padding-top:1em
 }
     
 .picborder
@@ -506,15 +509,16 @@ text-align:center;
 
 blockquote.quote {
 font-size:1.5em;
-margin-top: 10px;
-margin-bottom: 10px;
-margin-left: 50px;
-padding-left:10px;
+margin: .5em 1em .5em 0;
+padding-left:1em;
 color:#99DC9D;
 border-left: 3px solid #ccc;
 width:50%;
-
+float:left;
 } 
+blockquote.quote.right {
+margin: .5em 0em .5em 1em;float:right;
+}
 
 .picpad
 {
