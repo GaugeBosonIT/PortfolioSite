@@ -665,9 +665,10 @@ line-height:1.0em;
 }
 .multiple
 {
-font-size:20em;
+font-size:2.1em;
 color:#99DC9D;
-
+text-align:right;
+margin-top:-0.19em;
             
 }
 
