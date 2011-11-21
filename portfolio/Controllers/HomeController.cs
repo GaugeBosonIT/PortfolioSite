@@ -54,14 +54,14 @@ namespace portfolio.Controllers
         }
 
         [HttpPost]
-        public ActionResult Contact(Contact m)
+        public ActionResult Index(Contact m)
         {
 
             MailMessage mail = new MailMessage();
             SmtpClient SmtpServer = new SmtpClient(SmtpClient);
             mail.From = new MailAddress(FromAddress);
-            mail.To.Add(m.Email);
-            mail.Subject = m.Email;
+            mail.To.Add(FromAddress);
+            mail.Subject = m.Email + " -- " + m.Name;
             mail.Body = m.Message;
 
             SmtpServer.Port = 587;

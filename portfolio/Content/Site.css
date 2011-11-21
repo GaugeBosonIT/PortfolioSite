@@ -376,7 +376,7 @@ float:right;
 .lineheight
 {
 line-height:1.2em;
-padding:0;
+padding:.1em 0 .2em;
 }
   
 
@@ -418,7 +418,6 @@ padding-right: 0px;
 {
  
     border: 0;
-    
 }
 	
 .row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
@@ -644,7 +643,7 @@ clear:both;
 blockquote.testimonial {
 font-size:1em;
 color:white;
-
+padding-top: .6em;
 width:95%;
 text-align:center;
 
@@ -655,11 +654,10 @@ margin:15px;
     
 }
     
-.projbodytext
-{
-  
 
-}
+.projbodytext{padding: .5em 0}
+.project.fourcol .projbodytext {min-height: 15em;}
+.project.sixcol .projbodytext {min-height: 18em;}
 
 .keywords
 {
@@ -765,3 +763,6 @@ a:hover {text-decoration: underline}
     margin-top:25px;
     min-height:1500px;
     }
+
+
+.imprintbody {padding: 1em}
