@@ -53,7 +53,7 @@ textarea { min-height: 75px }
 		text-align: left;
 }
 .navstrip ul li {
-		float: right;
+		float: left;
 		list-style: none;
 		padding: 7px 10px 3px 10px;
 }
@@ -333,7 +333,8 @@ a:hover { text-decoration: underline }
 		top: 0;
 		left: 0;
 		width: 100%;
-    border-bottom: 1px solid #f1f1f1;
+		border-bottom: 1px solid #f1f1f1;
+		z-index:1; /* contact form overlays this otherwise */
 }
 .selected { text-decoration: underline }
 .arrow {
@@ -359,8 +360,8 @@ a:hover { text-decoration: underline }
 		font-family: Palatino Linotype, serif;
 		color: #99DC9D;
 		float: left;
-    position: relative;
-    top: -2px;
+		position: relative;
+		top: -2px;
 }
 
 .logo a:hover {text-decoration:none;}
@@ -421,6 +422,16 @@ body > .container {
 			line-height: 2.5em;
 	}
 }
+@media screen and (max-width: 512px) { 
+	.topspacer {padding-top:80px}
+	.keywords {font-size: 7em; }
+}
+@media screen and (max-width: 395px) { 
+	.topspacer {padding-top:120px}
+	.keywords {font-size: 4em; }
+}
+
+
 
 /* Mobile */
 @media handheld, only screen and (max-width: 767px) { 
@@ -456,7 +467,15 @@ body > .container {
 			padding-right: 20px;
 	}
 	.abouttitle { line-height: 1.5em }
+	.multiple {
+		margin-top:0;
+		line-height:1em;
+		text-align:left;
+	}
 }
+
+
+
 @media handheld, only screen and (max-width: 480px) { 
 	.abouttitle {
 			line-height: 1.5em;
