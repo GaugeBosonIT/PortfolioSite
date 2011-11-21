@@ -1,25 +1,11 @@
-﻿
-<div class="twelevecol last border">
+﻿<div class="twelevecol last infographic">
+  <div class="row infographic">
+    <div class="onecol">
+    </div>
+    <div class="tencol slogan @(ViewBag.Title == "Home" ? "" : "lineheight") ">
+      @ViewBag.PageTitle</div>
+    <div class="onecol last">
+    </div>
+  </div>
 </div>
-<div class="twelevecol last infographic">
-
-
-    <div class="row infographic">
-      <div class="onecol"></div>
-        <div class="tencol slogan @(ViewBag.Title == "Home" ? "":"lineheight") ">
-           @ViewBag.PageTitle</div>
-           <div class="onecol last"></div>
-        </div>
-        
-         
-
-
-</div>
-<div class="twelevecol last border">
-
-</div>
-
-
-
-    @RenderBody()
-      <div class="twelevecol last sectiondivide"></div>
+@RenderBody()
