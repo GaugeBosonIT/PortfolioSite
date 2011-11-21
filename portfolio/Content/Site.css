@@ -1,9 +1,11 @@
-body
+html, body
 {
 font-size: 1em;
 font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
 color: #232323;
 background-color: #F5F5F5;
+height:100%;
+padding: 0px; margin: 0px;
 }
 
 header,
@@ -124,7 +126,7 @@ a.visited
      
 .infographic
 {
-min-height:190px;
+
 background-color:#99DC9D;
 
     
@@ -371,7 +373,7 @@ float:right;
 
 .lineheight
 {
-line-height:2.8em;
+line-height:1.2em;
 padding:0;
 }
   
@@ -663,7 +665,7 @@ line-height:1.0em;
 }
 .multiple
 {
-font-size:30em;
+font-size:20em;
 color:#99DC9D;
 
             
@@ -701,15 +703,7 @@ a:hover {text-decoration: underline}
   }
 
 
-.arrowstem
-{
-    
-    width:50%;
-    border-width: 20px;
-    border-style: solid;
-    border-color: #99DC9D;
 
-    }
 
 .triangle-right {
   border-color: transparent transparent transparent #99DC9D;
@@ -736,4 +730,33 @@ a:hover {text-decoration: underline}
 {
     color:White;
     font-size:0.5em;
+    }
+    
+    
+   .button {
+   border-top: 1px solid #99dc9d;
+   background: #99dc9d;
+   Padding: 0.2em 0.4em;
+    color: white;
+   font-size: 1em;
+   text-decoration: none;
+   padding-bottom:0px;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #99dc9d;
+   background: #99dc9d;
+    border: 0;
+    margin-bottom:5px;
+   }
+.minheight
+{
+    min-height:100%;
+    }
+    
+    
+.container
+{
+    margin-top:25px;
+    min-height:1500px;
     }

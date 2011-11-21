@@ -14,7 +14,7 @@ namespace portfolio.Models
 
 
         [Required(ErrorMessage = "Please enter an email")]
-        [RegularExpression(@"^[a-z][a-z|0-9|]*([_][a-z|0-9]+)*([.][a-z|0-9]+([_][a-z|0-9]+)*)?@[a-z][a-z|0-9|]*\.([a-z][a-z|0-9]*(\.[a-z][a-z|0-9]*)?)$", ErrorMessage ="Please enter a valid email")]
+        [RegularExpression(@"^[a-z][a-z|0-9|]*([_][a-z|0-9]+)*([.][a-z|0-9]+([_][a-z|0-9]+)*)?@[a-z|0-9|][a-z|0-9|]*\.([a-z][a-z|0-9]*(\.[a-z][a-z|0-9]*)?)$", ErrorMessage = "Please enter a valid email")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Please enter a subject")]

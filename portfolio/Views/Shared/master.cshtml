@@ -14,16 +14,21 @@
   <script src="@Url.Content("~/Scripts/Vegur.font.js")" type="text/javascript"></script>
   <script type="text/javascript">
 
-    $(document).ready(function () {
-      $(".jsnavlink").click(function (event) {
-        $(".jsnavlink.selected").removeClass("selected");
-        $(event.target).addClass("selected");
-        $('html, body').animate({
-          scrollTop: $("#" + $(event.target).attr("_target")).offset().top
-        }, 1000);
-        return false;
+      $(document).ready(function () {
+          $(".jsnavlink").click(function (event) {
+              $(".jsnavlink.selected").removeClass("selected");
+              $(event.target).addClass("selected");
+              $(".container.minheight").removeClass("minheight");
+
+              $("#" + $(event.target).attr("_target")).addClass("minheight")
+
+
+              $('html, body').animate({
+                  scrollTop: $("#" + $(event.target).attr("_target")).offset().top-40
+              }, 1000);
+              return false;
+          });
       });
-    });
  
  
   </script>
@@ -59,49 +64,45 @@
       <ul>
         <span class="fontWeightBold">Our work</span>
         <ul>
-          <li><a href="/Services">Methodology</a></li>
-          <li><a href="/Clients">FAQ</a></li>
-          <li><a href="/Portfolio">Testimonials</a></li>
-          <li><a href="/Jobs">Jobs</a></li>
+          <li><a _target="about" class="jsnavlink">Methodology</a></li>
+         <li><a _target="services" class="jsnavlink">Services</a></li>
+
         </ul>
     </div>
     <div class="threecol">
       <ul>
         <span class="fontWeightBold">Company</span>
         <ul>
-          <li><a href="/Clients">Clients</a></li>
-          <li><a href="/Portfolio">Portfolio</a></li>
-          <li><a href="/Jobs">Jobs</a></li>
+          <li><a _target="projects" class="jsnavlink">Clients</a></li>
+          <li><a _target="projects" class="jsnavlink">Portfolio</a></li>
         </ul>
     </div>
     <div class="threecol">
       <span class="fontWeightBold">Legal</span>
       <ul>
-        <li><a href="/Services">Imprint</a></li>
-        <li><a href="/Clients">Privacy</a></li>
+        <li><a _target="imprint" class="jsnavlink">Imprint</a></li>
+        <li><a _target="imprint" class="jsnavlink">Privacy</a></li>
       </ul>
     </div>
     <div class="threecol last">
       <span class="fontWeightBold">Connect</span>
       <ul>
-        <li><a target="_blank" href="http://www.facebook.com/friendfund" class="linkFb">Join us on Facebook</a></li>
-        <li><a target="_blank" href="http://twitter.com/#!/friendfund" class="linkTw">Follow us on Twitter</a></li>
-        <li><a target="_blank" href="http://blog.friendfund.com/?feed=rss2" class="linkRss">Subscribe to our Blog</a></li>
+        <li><a target="_blank" href="http://www.facebook.com/pages/8sprints/296854413668895?sk=info" class="linkFb">Join us on Facebook</a></li>
+        <li><a target="_blank" href="https://twitter.com/#!/8sprints" class="linkTw">Follow us on Twitter</a></li>
+  
       </ul>
     </div>
   </div>
   <div class="row">
-    <div class="twocol">
+    <div class="onecol">
     </div>
-    <div class="eightcol border-top footnote">
-      <span>Share Friendfund</span> <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.friendfund.com" data-count="horizontal">Tweet</a>
+    <div class="tencol border-top footnote">
+       <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.8sprints.com" data-count="horizontal">Tweet</a>
       <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-      <iframe src="https://www.facebook.com/plugins/like.php?href=www.facebook.com%2Ffriendfund&amp;layout=button_count&amp;show_faces=false&amp;width=200&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21"
-        scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 120px; height: 21px;" allowtransparency="true"></iframe>
-      <span class="floatLeft" style="margin-top: -13px"><a target="_blank" href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.friendfund.com&lang=en">
-        <img src="/static/imgs/veri-sign_trans.png" /></a></span> <span class="floatRight" style="margin-top: 3px">2011 Someother GmbH. All Rights Reserved.</span>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2F8sprints%2F296854413668895&amp;width=292&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;appId=181665655236350" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
+     <span class="floatRight" style="margin-top: 3px">2011 8sprints. All Rights Reserved.</span>
     </div>
-    <div class="twocol">
+    <div class="onecol">
     </div>
   </div>
 </body>
